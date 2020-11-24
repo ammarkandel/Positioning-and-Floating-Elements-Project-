@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
