@@ -72,3 +72,36 @@ button {
   color: gray;
   padding-top: 10px;
 }
+
+.section2 {
+  height: 900px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.section2 a {
+  font-weight: 700;
+  color: black;
+  font-size: 18px;
+}
+
+.section2 .article-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.section2 .article-nav ul a {
+  text-decoration: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.section2 .article-nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
