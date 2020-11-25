@@ -132,10 +132,6 @@ aside {
   padding: 10px;
 }
 
-.section3 {
-  height: 700px;
-}
-
 .section3 h3 {
   padding-bottom: 10px;
 }
@@ -146,7 +142,6 @@ aside {
 }
 
 .section3 .inflation {
-  height: 500px;
   width: 150vh;
   margin-top: 30px;
   background: url("./images/inflation-945.png") no-repeat;
