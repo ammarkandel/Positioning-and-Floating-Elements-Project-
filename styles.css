@@ -152,3 +152,74 @@ aside {
   width: 350px;
   margin-right: 10px;
 }
+
+.suggested {
+  height: 700px;
+  display: flex;
+  margin: 80px;
+}
+
+.suggested .new-letters {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.suggested .new-letters .main-card,
+.suggested .new-letters .main-card-suggest {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggested .new-letters .main-card-suggest .letters-card-suggest {
+  height: 200px;
+  width: 250px;
+  margin-bottom: 50px;
+  border-radius: 0.5%;
+}
+
+.suggested .new-letters .main-card-suggest .letters-card-suggest:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px 2px;
+}
+
+.suggested .new-letters .main-card .letters-card {
+  height: 200px;
+  width: 250px;
+}
+
+.suggested .new-letters .main-card .letters-card a {
+  display: block;
+  text-align: center;
+}
+
+.suggested .new-letters .main-card .letters-card-suggest a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.suggested .most-popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.suggested .most-popular div {
+  height: 200px;
+  width: 300px;
+  padding: 50px;
+  border-top: 0.5px rgb(153, 152, 152) solid;
+  border-bottom: 0.5px rgb(160, 158, 158) solid;
+}
+
+.suggested .most-popular div a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.suggested .most-popular div a:hover {
+  color: rgb(99, 97, 97);
+}
