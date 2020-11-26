@@ -141,6 +141,16 @@ button {
   align-items: center;
 }
 
+.footer-main a {
+  color: black;
+  opacity: 0.8;
+}
+
+.footer-logo a {
+  font-size: 14px;
+  color: rgb(9, 9, 100);
+}
+
 .copyright ul a {
   color: black;
   opacity: 0.8;
@@ -196,15 +206,6 @@ aside {
 
 footer {
   margin: 0 20px 30px 20px;
-}
-.footer-main a {
-  color: black;
-  opacity: 0.8;
-}
-
-.footer-logo a {
-  font-size: 14px;
-  color: rgb(9, 9, 100);
 }
 
 .last-div div {
@@ -262,6 +263,10 @@ footer {
   width: 250px;
 }
 
+.suggested .most-popular div a:hover {
+  color: rgb(99, 97, 97);
+}
+
 .suggested .new-letters .main-card .letters-card a {
   display: block;
   text-align: center;
@@ -288,10 +293,6 @@ footer {
   padding: 16px;
   border-top: 0.5px rgb(153, 152, 152) solid;
   border-bottom: 0.5px rgb(160, 158, 158) solid;
-}
-
-.suggested .most-popular div a:hover {
-  color: rgb(99, 97, 97);
 }
 
 .details {
