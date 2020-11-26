@@ -13,7 +13,7 @@ Clone of a New York Times article page. [article page](https://www.nytimes.com/2
 
 ## Live Demo
 
-[Live Demo Link] (https://ammarkandel.github.io/Positioning-and-Floating-Elements-Project-/)
+[Live Demo Link](https://ammarkandel.github.io/Positioning-and-Floating-Elements-Project-/)
 
 👤 **Ammar El refay Kandel**
 
