@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
+
 a {
   text-decoration: none;
 }
@@ -35,12 +36,13 @@ nav ul .sign-btn {
   border-radius: 3px;
   margin-left: 10px;
 }
+
 nav ul li:nth-child(4) {
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 nav ul li:nth-child(2) {
-  padding: 0px 20px 0px 20px;
+  padding: 0 20px 0 20px;
 }
 
 button {
@@ -49,7 +51,7 @@ button {
 
 .container {
   width: 900px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .section1 {
@@ -72,7 +74,7 @@ button {
 
 .section2 {
   width: 600px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding-top: 60px;
   margin-bottom: 40px;
 }
@@ -99,12 +101,14 @@ button {
   margin-top: 20px;
 }
 
-.article-nav ul li {
-  padding-left: 10px;
-}
 .article-nav ul li:first-child {
   flex: 1;
 }
+
+.article-nav ul li {
+  padding-left: 10px;
+}
+
 .section2 .article-nav ul a {
   text-decoration: none;
   height: 20px;
@@ -113,16 +117,16 @@ button {
   background-color: gray;
 }
 
-.section2 .article-nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
 .aside-content {
   display: flex;
   width: 220px;
   justify-content: center;
   align-items: center;
   padding-top: 10px;
+}
+
+.section2 .article-nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .aside-content p {
@@ -137,6 +141,7 @@ button {
 .aside-content a:hover {
   text-decoration: underline;
 }
+
 aside {
   float: right;
   padding: 10px;
@@ -163,6 +168,55 @@ aside {
 .inflation-description {
   margin: 160px 0 160px 0;
 }
+
+.footer-main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+footer {
+  margin: 0 20px 30px 20px;
+}
+.footer-main a {
+  color: black;
+  opacity: 0.8;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo a {
+  font-size: 14px;
+  color: rgb(9, 9, 100);
+}
+
+.copyright ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin: 0 60px 0 60px;
+  align-items: center;
+}
+
+.copyright ul a {
+  color: black;
+  opacity: 0.8;
+  font-size: 14px;
+}
+.footer-main div:last-child {
+  border-left: solid 1px rgba(0, 0, 0, 0.2);
+  padding-left: 5px;
+}
+
+.suggested {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 20px;
+}
+
 .section3 .inflation div {
   display: flex;
   justify-content: space-around;
@@ -172,12 +226,6 @@ aside {
   font-size: 14px;
   width: 350px;
   margin-right: 10px;
-}
-
-.suggested {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  margin: 20px;
 }
 
 .suggested .new-letters {
@@ -252,49 +300,10 @@ aside {
   margin: 10px;
 }
 
-.footer-main {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-}
+
 
 .last-div div {
   display: flex;
   flex-direction: column;
 }
 
-footer {
-  margin: 0 20px 30px 20px;
-}
-.footer-main a {
-  color: black;
-  opacity: 0.8;
-}
-
-.footer-logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-logo a {
-  font-size: 14px;
-  color: rgb(9, 9, 100);
-}
-
-.copyright ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-around;
-  margin: 0 60px 0 60px;
-  align-items: center;
-}
-
-.copyright ul a {
-  color: black;
-  opacity: 0.8;
-  font-size: 14px;
-}
-.footer-main div:last-child {
-  border-left: solid 1px rgba(0, 0, 0, 0.2);
-  padding-left: 5px;
-}
