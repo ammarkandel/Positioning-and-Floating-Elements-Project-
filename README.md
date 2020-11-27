@@ -1,4 +1,3 @@
-# Positioning-and-Floating-Elements-Project-
+# Simple Form
 
-Create clone for a New York Times article page.
-
+Create simple form page for comments.

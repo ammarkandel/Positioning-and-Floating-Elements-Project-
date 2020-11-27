@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <title>Add Your Comment</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <fieldset class="fieldset-1">
+                <lable>Username</lable>
+                    <input maxlength="20" type="text" name="username" required >
+                <lable>Email</lable>
+                    <input maxlength="20" type="email" name="username" required >
+            </fieldset>
+            <fieldset class="fieldset-2">
+                <textarea maxlength="250" class="comment" placeholder="Type your comment here…"></textarea>
+                <label>What is your overall opinion about this article?</label>
+                <select name="opinion">
+                    <option value="positive" selected>positive</option>
+                    <option value="negative">negative</option>
+                    <option value="neutral">neutral</option>
+                </select>
+                <input type="checkbox" name="subscribe" value="subscribe" > I want to subscribe to the newsletter
+            </fieldset>
+                <input type="submit" name="submit-btn" value="Send" >
+        </form>
+    </div>
+</body>
+</html>

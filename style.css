@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 30px;
+}
+
+form fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset-1 input {
+  margin: 10px;
+  height: 25px;
+}
+
+.fieldset-2 > * {
+  margin-bottom: 10px;
+}
+
+.fieldset-2 textarea {
+  height: 100px;
+}
+
+.fieldset-2 select {
+  height: 40px;
+}
+
+input[type="submit"] {
+  height: 40px;
+  width: 150px;
+  margin: 15px;
+  background-color: gray;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
