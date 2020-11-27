@@ -335,7 +335,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  width: 450px;
+  width: 300px;
 }
 
 .suggested .most-popular div {
