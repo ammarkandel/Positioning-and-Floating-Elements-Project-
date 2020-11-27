@@ -4,9 +4,10 @@
   padding: 0;
 }
 
-body {
+/* body {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-}
+} */
+ 
 
 a {
   text-decoration: none;
@@ -113,7 +114,7 @@ button {
   margin-left: 150px;
 }
 
-.section1 figcaption {
+.section1 .figcaption {
   color: gray;
   padding-top: 10px;
   width: 80%;
@@ -236,6 +237,11 @@ button {
   height: 20px;
   width: 20px;
   padding-left: 15px;
+}
+.section2 p{
+  
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    
 }
 
 .aside-content p {
@@ -402,3 +408,4 @@ footer {
   padding-bottom: 5px;
   font-size: 14px;
 }
+
