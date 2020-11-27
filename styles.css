@@ -151,6 +151,12 @@ button {
   font-size: 14px;
 }
 
+.section2 a {
+  font-weight: 700;
+  color: black;
+  font-size: 18px;
+}
+
 .copyright ul a {
   color: black;
   opacity: 0.8;
@@ -166,12 +172,6 @@ button {
 .section2 .version a {
   font-size: 11px;
   color: gray;
-}
-
-.section2 a {
-  font-weight: 700;
-  color: black;
-  font-size: 18px;
 }
 
 .section2 .version a {
