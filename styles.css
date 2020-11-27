@@ -53,6 +53,31 @@ nav ul .sign-btn {
   padding-left: 10px;
 }
 
+.comment-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 150px;
+}
+
+.comment-nav .comments-btn {
+  background-color: rgb(86, 123, 149);
+  border: none;
+  color: white;
+  padding: 12px 120px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 11.5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
 nav ul li:nth-child(4) {
   margin: 0 auto;
 }
@@ -108,6 +133,16 @@ button {
   margin: 0 auto;
   padding-top: 60px;
   margin-bottom: 40px;
+}
+
+.section2 .version,
+.section2 .version a {
+  font-size: 11px;
+  color: gray;
+}
+
+.section2 .version a {
+  text-decoration: none;
 }
 
 .section2 iframe {
