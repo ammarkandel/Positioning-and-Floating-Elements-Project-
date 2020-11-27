@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGN UP </title>
+  <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1 class="title">New York Times Feedback Form</h1>
+      <p class="description">Thank you for taking the time to give us your Feedback.</p>
+
+      <p> Kindly fill the form below</p>
+    </header>
+    <form action="submit">
+      <fieldset>
+
+        <div id ="username" class="label">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" maxlength="20" required>
+        </div>
+        <div class="label">
+          <label for="email">Email address</label>
+          <input type="email" name="email" id="email" maxlength="20" required>
+        </div>
+        <textarea class="textarea" maxlength="250" required>Type your comment here…</textarea>
+        <div>
+          <p>What is your overall opinion about this article?</p>
+  
+          <select id="feature" required>
+            <option disabled selected value>Select an option</option>
+            <option value="Positive">Positive</option>
+            <option value="Negative">Negative</option>
+            <option value="Neutral">Neutral</option>
+      
+          </select>
+        </div id="checkbox">
+        <label for="I want to subscribe to the newsletter">
+          <input type="checkbox" value="I want to subscribe to the newsletter">I want to subscribe to the newsletter</label></div>
+          <div class="button"> <button type="submit">Send</button></div>
+      </fieldset>
+    </form>
+    <footer>
+      <div class="copyright">
+        <ul>
+          <li><a href="#">&copy;2020 The New York Times Company</a></li>
+          <li><a href="#">NYTco</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Work With Us</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">T Brand Studio</a></li>
+          <li><a href="#">Your Ad choices</a></li>
+          <li><a href="#">Private Policy</a></li>
+          <li><a href="#">Terms Of Service</a></li>
+          <li><a href="#">Terms Of sale</a></li>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Subscription </a></li>
+        </ul>
+      </div>
+      
+        </footer>
+  </main>
+</body>
+</html>
