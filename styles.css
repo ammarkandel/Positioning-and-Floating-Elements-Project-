@@ -88,7 +88,7 @@ button {
   margin-left: 150px;
 }
 
-.section1 figcaption{
+.section1 figcaption {
   color: gray;
   padding-top: 10px;
   width: 80%;
@@ -140,7 +140,6 @@ button {
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 .article-nav ul li:first-child {
@@ -238,7 +237,7 @@ footer {
 .suggested {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  margin: 20px;
+  margin: 100px;
 }
 
 .section3 .inflation div {
@@ -253,30 +252,32 @@ footer {
 }
 
 .suggested .new-letters {
-  width: 800px;
+  width: 780px;
   display: flex;
   flex-direction: column;
+  border-top: 1px solid black;
+  padding-top: 20px;
 }
 
-.suggested .new-letters .main-card,
-.suggested .new-letters .main-card-suggest {
+.suggested .new-letters .astronomy-link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.suggested .new-letters .astronomy-link:hover {
+  text-decoration: underline;
+}
+
+.suggested .new-letters .main-card {
   display: flex;
   justify-content: space-between;
-}
-
-.suggested .new-letters .main-card-suggest .letters-card-suggest {
-  height: 200px;
-  width: 250px;
-  margin-bottom: 50px;
-  border-radius: 0.5%;
-}
-
-.suggested .new-letters .main-card-suggest .letters-card-suggest:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px 2px;
+  padding-bottom: 30px;
 }
 
 .suggested .new-letters .main-card .letters-card {
-  height: 200px;
   width: 250px;
 }
 
@@ -291,18 +292,11 @@ footer {
   text-decoration: none;
 }
 
-.suggested .new-letters .main-card .letters-card-suggest a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-
 .suggested .most-popular {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 60px;
+  margin-left: 20px;
+  width: 450px;
 }
 
 .suggested .most-popular div {
@@ -310,6 +304,14 @@ footer {
   padding: 16px;
   border-top: 0.5px rgb(153, 152, 152) solid;
   border-bottom: 0.5px rgb(160, 158, 158) solid;
+}
+
+.suggested .most-popular div a {
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 500;
+  color: black;
 }
 
 .details {
