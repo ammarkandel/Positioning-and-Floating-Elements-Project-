@@ -1,8 +1,3 @@
-<<<<<<< Forms_AmmarKandel
-# Simple Form
-
-Create simple form page for comments.
-=======
 # Positioning-and-Floating-Elements-Project-
 
 Making a clone of a New York Times article page.
@@ -44,4 +39,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
->>>>>>> main
